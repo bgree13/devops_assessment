@@ -19,8 +19,9 @@
 # DevOps Assessment
 
 
-## Purpose
+# Purpose
 The goal of the exercise is to evaluate both the current and desired state of your organizations progress and finding the best path to achieve future goals. In order to do so, we will expose opportunities for continuous improvement by defining a baseline of where you are on your journey and the desired state of where you’re trying to go.
+<!-- .element: class="fragment" -->
 
 Once complete we will compile the results and identify any gaps that may inhibit us from achieving these set goals. From this we can generate custom guidelines that will be used to visualize our paths to success.
 <!-- .element: class="fragment" -->
