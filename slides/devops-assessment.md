@@ -21,7 +21,7 @@
 
 ## Continous Deployment Pipeline 
  <!-- .slide: class="absolute" -->
-![alt text](images/cont_deployment.png "Logo Title Text 1")
+![alt text](images/cont_deployment.png "Continuous Deployment")
 
 
 ## Purpose
