@@ -19,7 +19,12 @@
 # DevOps Assessment
 
 
-# Purpose
+## Continous Deployment Pipeline 
+ <!-- .slide: class="absolute" -->
+![alt text](images/cont_deployment.png "Logo Title Text 1")
+
+
+## Purpose
 The goal of the exercise is to evaluate both the current and desired state of your organizations progress and finding the best path to achieve future goals. In order to do so, we will expose opportunities for continuous improvement by defining a baseline of where you are on your journey and the desired state of where you’re trying to go.
 <!-- .element: class="fragment" -->
 
