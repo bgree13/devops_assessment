@@ -22,7 +22,7 @@
 
 1. Open <http://localhost:8000> to view your presentation
 
-   You can change the port by using:
+   Alternatively, you can change the port by using:
    ```sh
    $npm start -- --port=8090`
    ```	
