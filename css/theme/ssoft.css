@@ -39,12 +39,13 @@ body {
 
 .reveal .slides {
   height: 100%;
+  width: 100%;
   top: 0;
   margin-top: 0;
 }
 
 .reveal .slides>section {
-  min-height: 90%;
+  min-height: 90%;*/
 }
 
 .reveal .slides>section>section {
