@@ -21,13 +21,11 @@
 
 ## Introduction
 
-This course is designed to introduce you to the concept of DevOps in general as well as how it evolved.
++ This course is designed to introduce you to the concept of DevOps in general as well as how it evolved.
 
-We are going to cover terms and technology that either directly influence the DevOps movement or led us down that path.
++ We are going to cover terms and technology that either directly influence the DevOps movement or led us down that path.
 
-DevOps is nothing without understanding some of the fundamental processes that are impacted by the new way of operating, we will cover those as well.
-
-Not only is DevOps the driver of many new tools in the Open Source world, but a large consumer of them as well. We will talk about the leading concepts and DevOps Best Practices.
++ DevOps is nothing without understanding some of the fundamental processes that are impacted by the new way of operating, we will cover those as well. Not only is DevOps the driver of many new tools in the Open Source world, but a large consumer of them as well. We will talk about the leading concepts and DevOps Best Practices.
 
 
 ## What is DevOps?
