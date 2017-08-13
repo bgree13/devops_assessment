@@ -24,5 +24,5 @@
 
    Alternatively, you can change the port by using:
    ```sh
-   $ npm start -- --port=8090`
+   $ npm start -- --port=8090
    ```	
