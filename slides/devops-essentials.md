@@ -41,10 +41,9 @@ DevOps acknowledges the interdependence of software development, quality assuran
 
 ## What Is It Really?
 
-+ It is *NOT* an excuse for staff reductions
++ It is **NOT** an excuse for staff reductions
 <!-- .element: class="fragment" -->
 + The is no single DevOps tool
-<!-- .element: class="fragment" -->
 + It **IS** a cross-functional mode of working
 <!-- .element: class="fragment" -->
 

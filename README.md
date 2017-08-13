@@ -1,6 +1,6 @@
 1. Install Node.js (4.0.0 or later)
 
-1. Clone the devops_asssessment repository
+1. Clone the devops assessment repository
   ```sh
   $ git clone https://github.com/bgree13/devops_assessment.git
   ```
@@ -22,5 +22,4 @@
 
 1. Open <http://localhost:8000> to view your presentation
 
-   You can change the port by using `npm start -- --port=8090`.
-
+   You can change the port by using `npm start -- --port=8090
