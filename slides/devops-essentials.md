@@ -58,7 +58,7 @@ Over the course you will hear things like “continuous integration” and “bu
 <!-- .slide: data-background="images/consulting-background.jpg" -->
 
 
-## Informtation Technology - Operations 
+## Informtation Technology ~ Operations 
 <!-- .slide: data-background="#FFFFFF" data-transition="convex"  -->
 <img src="/images/operations_devops.png" class="absolute" height="30%" width="30%">
 
@@ -76,7 +76,7 @@ Operations is simply the set of processes and services provisioned by IT personn
 Note: Many times, the duties are limited to physical and virtual hardware and the “who and how” it is provisioned to provide services consumed by development.
 
 
-### Informtation Technology - Development
+### Informtation Technology ~ Development
 <!-- .slide: data-background="#FFFFFF" data-transition="convex"  -->
 <img src="/images/development_se.png" class="absolute" height="30%" width="30%">
 
@@ -93,12 +93,12 @@ Development generally refers to the process of creating software. It involves th
 Note: Just to name a few. These are the practices that define the activities around how software is developed and the order in which they occur.
 
 
-## Informtation Technology - QA
+## Informtation Technology ~ QA
 <!-- .slide: data-background="#FFFFFF" data-transition="convex"  -->
 <img src="/images/qa_devops.png" class="absolute" height="30%" width="30%">
 
 
-## Informtation Technology - All
+## Informtation Technology ~ All
 <!-- .slide: data-background="#FFFFFF" data-transition="convex"  -->
 <img src="/images/all_devops.png" class="absolute" height="30%" width="30%">
 
@@ -118,7 +118,7 @@ Note: In the past, these beasts lived in the same zoo, but were separated and fe
 Note: Now that anyone could provision **images** to use for rapid development and prototyping, the skills necessary to manage those configurations started to be more well understood in general. These **crossover** skills began to create a new type of engineer that was exactly as described and those barriers began to break down.
 
 
-## Responsibility Silos - Summary
+## Responsibility Silos ~ Summary
 
 Routinely, companies are using the DevOps rallying cry as an excuse for not hiring the staff needed. They term it a new **culture** when sometimes all it is is an excuse for them to get more out of fewer personnel. 
 
@@ -165,7 +165,7 @@ Now we go further down the rabbit hole… the next step up in the redefinition o
 In the Platform as a Service model, IT (or a vendor/cloud provider) delivers a “computing platform” for consumption. It generally includes everything from the previously detailed IaaS model as well as a few additions.
 
 
-## Traditional Services – PaaS View
+## Traditional Services ~ PaaS View
 You will notice that we have moved the “service” offering a few notches up the stack in the diagram to your left. 
 
 In addition to everything in the IaaS model, we have added Runtime and Middleware. 
@@ -181,9 +181,101 @@ Big name vendors like Microsoft (Azure) and Google (App Engine) were some of the
 It also converged developer and operations skillsets even more than before.
 
 
-## PaaS - Summary
+## PaaS ~ Summary
 Platform as a Service is now a routine term in the current IT nomenclature. Now that management of the stack has moved further up (or down depending on your view point), the skills necessary for each portion of that delineation have converged even more. 
 
 Although this was not the driving force behind DevOps, it certainly has influenced the services and skills that DevOps requires. Now that anyone can write and deploy software publicly on compute resources that were traditionally managed by operations only, we start to see how this evolution set us on the path to DevOps.
 
+
+## SaaS
+As someone in a famous science fiction movie may have once said “Now your journey to the dark side is complete.” 
+
+In the Software as a Service model, IT (or a vendor/cloud provider) delivers ACCESS to the software to be used without having to do anything to manage, configure, monitor or support it. 
+
+This eliminates the need to install or run applications locally and can be run entirely remotely (“in the cloud” so to speak). Since everything in the traditional stack is now consumed as a service, those lines, well, they disappear.
+
+
+## Traditional Services ~ SaaS View
+Now, there doesn’t seem to be any “lines drawn in the sand”. 
+
+In addition to everything in the IaaS and PaaS model, we have Data and Applications. 
+
+The evolution has come full circle so to speak. Instead of the traditional lines drawn between software and hardware (often seen as operations and development) disappear, the skills needed to operate within this space have completely converged.
+
+
+## Why Is SaaS Important?
+You are right, SaaS was not “the” driving force behind DevOps, but it was one of the most important final steps. 
+
+Virtualization and cloud technologies require automation in order to provision quickly enough for the service to be readily consumable. In order to do that, a ton of software has been written to manage those compute resources and allow the automatic scaling based on need. 
+
+We now have traditional software and hardware personnel that need the same skills to operate within this space.
+
+
+## SaaS ~ Summary
+Software as a Service is now a routine term in the current IT nomenclature. This evolution of how IT offers and consumes hardware and software turned the industry on its head. 
+
+All of these “service” platforms that we have talked about, drive cloud technology and those “cloud clients” are now the consumers where IT has converged in how it provides hardware (now largely virtualized) and software to be consumed by end users. 
+
+The skills necessary to manage these resources now cross over these previously traditional silos. No longer do we have the software developer who doesn’t understand basic networking or the hardware engineer who cannot develop, they are required skills and contained in the same space.
+
+
+## Build Automation
+Historically, the term has applied to software development. The process of “building” or compiling software that can then be deployed via script or cron jobs to various environments, including production systems. 
+
+In the DevOps world, it encompasses not only the software portion, but the process of automating the deployment of compute resources (physical or virtual, applications and data). 
+
+Whether the process is a unified tool or a set of them, build automation in DevOps terms allows the deployment and management of the entire stack of services, without manual intervention (well, mostly).
+
+
+## Infrastructure As Code
+DevOps erases those traditional lines between Operations and Development. It does so because everything is treated as a “compute resource” and can be managed with code.
+
+When your compute resources are largely virtual (cloud consumed), your deployments can be automated throughout the stack with build automation tools.
+
+
+## What Does It Look Like?
+Build automation is the process by which you initiate a software or hardware deployment automatically, using consistent methods, all the way through the environment stack. 
+
+It can and does include automated testing and rollback capabilities so that each environment remains stable and consistent.
+
+
+## Build Automation - Summary
+Build automation is a key component in any DevOps organization. It consumes the services that IT has painstakingly made available in a consistent and repeatable manner. 
+
+Now that our compute resources (be they virtual or otherwise) can be consumed and expanded instantly and automatically, the build process can take advantage of those resources more efficiently. 
+
+Consistency and stability is the key in Build Automation. By removing the manual process necessary to deploy hardware and software, you eliminate potential inconsistencies amongst the environments and reduce troubleshooting time when there is a problem since rollback and new deployments are trivial.
+
+
+## Continuous Integration
+This can be defined as the practice of merging development working copies (i.e. builds that are in flight on a development system or systems) with the shared source main (branch) multiple times per day. 
+
+The concept of multiple integrations per day on the main source branch is to prevent integration problems in large development teams where the odds of one change breaking the changes of another developer would be smaller. 
+
+Continuous Integration works hand-in-hand with the previously discussed Build Automation. It takes advantage of those automated build processes to build and test each commit and reporting those results back to the development teams.
+
+
+## Continuous Delivery
+
+This is an approach in which software teams keep producing valuable software in very short delivery cycles and ensures that those features can be reliably and consistently released at any point in time. 
+
+It is often mistakenly used interchangeably with the Continuous Integration approach. Whereas CI has more to do with how the software code is managed throughout the development lifecycle, CD is how valuable and how quickly that software can be released when it is determined that the aggregate features are valuable enough.
+
+
+## What Does It Look Like?
+
+These topics are very cyclical in nature. Both are designed to take advantage of taking things in smaller chunks to increase stability and decrease release cycles. 
+
+As one progresses constantly, the outputs from the CI process feed into the CD process and the cycle begins again. 
+
+DevOps is driven largely by these two processes as they are the culmination of treating everything like code in rapid cycles.
+
+
+## CI / CD - Summary
+
+Although related, Continuous Integration and Continuous Delivery are different in what they accomplish. 
+
+DevOps uses each one in and in turn feeds the next in the chain. Integration in small doses keeps each environment from developing competing relationships too quickly to manage. Delivery allows the reliable release of those small doses when they are determined to have enough value to move into production. 
+
+Since everything is treated as code from the infrastructure to the software being deployed, the DevOps tools being used apply equally to each part of the stack – we are going to talk about those very tools next up!
 
