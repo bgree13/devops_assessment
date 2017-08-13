@@ -62,7 +62,6 @@ Over the course you will hear things like “continuous integration” and “bu
 <!-- .slide: data-background="#FFFFFF" data-transition="convex"  -->
 <img src="/images/operations_devops.png" class="absolute" height="30%" width="30%">
 
-<small>
 Operations is simply the set of processes and services provisioned by IT personnel to their own internal or external clients in order to run their business. It is generally delineated in several ways:
 
 + Infrastructure and Monitoring 
@@ -70,25 +69,21 @@ Operations is simply the set of processes and services provisioned by IT personn
 + Maintenance 
 + Support 
 
-</small>
+Note: Operations is simply the set of processes and services provisioned by IT personnel to their own internal or external clients in order to run their business. It is generally delineated in several ways:
 
-Operations is simply the set of processes and services provisioned by IT personnel to their own internal or external clients in order to run their business. It is generally delineated in several ways:
-Note: Many times, the duties are limited to physical and virtual hardware and the “who and how” it is provisioned to provide services consumed by development.
+Many times, the duties are limited to physical and virtual hardware and the “who and how” it is provisioned to provide services consumed by development.
 
 
 ### Informtation Technology ~ Development
 <!-- .slide: data-background="#FFFFFF" data-transition="convex"  -->
 <img src="/images/development_se.png" class="absolute" height="30%" width="30%">
 
-<small>
 Development generally refers to the process of creating software. It involves the programming, documenting, testing and debugging associated with application development and the associated software release lifecycle. There are a number of methodologies for doing so:
  
 + Prototyping 
 + Waterfall 
 + Agile 
 + Rapid 
-
-</small>
 
 Note: Just to name a few. These are the practices that define the activities around how software is developed and the order in which they occur.
 
