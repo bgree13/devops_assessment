@@ -294,7 +294,7 @@ body {
 /*********************************************
  * SCROLLABLE SLIDE
  *********************************************/
-.scrollable {
+/*.scrollable {
 	border: 15px dashed gray;
   	padding: .1em;
   	white-space: pre-wrap;
@@ -304,3 +304,4 @@ body {
 .scrollable::-webkit-scrollbar {
 	display: none;
 }
+*/
