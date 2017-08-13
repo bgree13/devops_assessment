@@ -45,7 +45,7 @@ It is NOT an excuse for staff reductions
 The is no single DevOps tool
 It IS a cross-functional mode of working
 
-Notes: It’s a different way of doing things in Information Technology. What it is NOT is an excuse for staff reductions (which all too often it is used to justify or explain). 
+Note: It’s a different way of doing things in Information Technology. What it is NOT is an excuse for staff reductions (which all too often it is used to justify or explain). 
 
 A lot of people believe that one tool be it Jenkins, Puppet, Maven will be able encompass their DevOps goals. When in fact, it’s quite the opposite. A collection of these tools should be used to achieve the full development and delivery process.
 
