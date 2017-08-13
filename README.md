@@ -1,24 +1,24 @@
 1. Install Node.js (4.0.0 or later)
 
 1. Clone the devops assessment repository
-  ```sh
-  $ git clone https://github.com/bgree13/devops_assessment.git
-  ```
+   ```sh
+   $ git clone https://github.com/bgree13/devops_assessment.git
+   ```
 
 1. Navigate to devops_assessment directory
-  ```sh
-  $ cd devops_assessment
-  ```
+   ```sh
+   $ cd devops_assessment
+   ```
 
 1. Install Dependencies
-  ```sh
-  $ npm install
-  ```
+   ```sh
+   $ npm install
+   ```
 
 1. Serve the presentation and monitor source files for changes
-  ```sh
-  $ npm start
-  ```
+   ```sh
+   $ npm start
+   ```
 
 1. Open <http://localhost:8000> to view your presentation
 
