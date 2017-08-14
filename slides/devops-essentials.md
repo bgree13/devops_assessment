@@ -17,12 +17,12 @@
 
 <!-- .slide: data-background="images/consulting-background.jpg" -->
 # DevOps Essentials
+<img src="/images/ssoftlogo.png" class="absolute" height="30%" width="30%">
 
 
 ## Introduction
 
 + This course is designed to introduce you to the concept of DevOps in general as well as how it evolved.
-<!-- .element: class="fragment" -->
 
 + We are going to cover terms and technology that either directly influence the DevOps movement or led us down that path.
 <!-- .element: class="fragment" -->
@@ -171,7 +171,6 @@ Note: One of the first steps in the DevOps revolution was when Information Techn
 <img src="/images/traditional_view.png" class="absolute" height="100%" width="20%">
 
 The traditional stack of technology services and the management of them looks something like the diagram to the above. 
-<!-- .element: class="fragment" -->
 
 You are looking at a generalized view of everything from hardware to operating system to the data and applications that sit on top. 
 <!-- .element: class="fragment" -->
@@ -187,18 +186,17 @@ Whether the Infrastructure was provided internally or in a colocation model by a
 Here is the same stack with a slight difference. The perspective of what IT provides is now defined as a set of services related to those items highlighted, from the network to the operating system. 
 
 Now, infrastructure related items could be clearly identified to the consumers of those services. This was important because it was one of the first steps in defining IT lines of responsibility differently.
+<!-- .element: class="fragment" -->
 
 
 ## IaaS Summary
 Infrastructure as a Service is now a routine term in the current IT nomenclature. It is a level of service and support that is used to clearly identify where the responsibility starts and ends when providing infrastructure to its consumers (be it the business directly or the developers who need to deploy on it). 
-<!-- .element: class="fragment" -->
 
 Note: Although this was not the driving force behind DevOps, it certainly has influenced the services and skills that DevOps requires. As virtualization has overtaken dedicated hardware resources in particular, IT has had to develop different (and faster) skills around the scale and speed of traditional infrastructure deployments.
 
 
 ## PaaS
 Now we go further down the rabbit hole the next step up in the redefinition of IT was to take a look at the Platform being delivered and how it was managed (and by whom). 
-<!-- .element: class="fragment" -->
 
 In the Platform as a Service model, IT (or a vendor/cloud provider) delivers a computing platform for consumption. It generally includes everything from the previously detailed IaaS model as well as a few additions.
 <!-- .element: class="fragment" -->
@@ -209,7 +207,6 @@ In the Platform as a Service model, IT (or a vendor/cloud provider) delivers a c
 <img src="/images/paas_view.png" class="absolute" height="100%" width="20%">
 
 + You will notice that we have moved the service offering a few notches up the stack in the diagram to your left. 
-<!-- .element: class="fragment" -->
 
 + In addition to everything in the IaaS model, we have added Runtime and Middleware. 
 <!-- .element: class="fragment" -->
@@ -231,7 +228,6 @@ It also converged developer and operations skillsets even more than before.
 
 ## PaaS ~ Summary
 Platform as a Service is now a routine term in the current IT nomenclature. Now that management of the stack has moved further up (or down depending on your view point), the skills necessary for each portion of that delineation have converged even more. 
-<!-- .element: class="fragment" -->
 
 Although this was not the driving force behind DevOps, it certainly has influenced the services and skills that DevOps requires. Now that anyone can write and deploy software publicly on compute resources that were traditionally managed by operations only, we start to see how this evolution set us on the path to DevOps.
 <!-- .element: class="fragment" -->
@@ -239,7 +235,6 @@ Although this was not the driving force behind DevOps, it certainly has influenc
 
 ## SaaS
 In the Software as a Service model, IT (or a vendor/cloud provider) delivers ACCESS to the software to be used without having to do anything to manage, configure, monitor or support it. 
-<!-- .element: class="fragment" -->
 
 This eliminates the need to install or run applications locally and can be run entirely remotely (in the cloud so to speak). Since everything in the traditional stack is now consumed as a service, those lines, well, they disappear.
 <!-- .element: class="fragment" -->
@@ -250,7 +245,6 @@ This eliminates the need to install or run applications locally and can be run e
 <img src="/images/saas_view.png" class="absolute" height="100%" width="20%">
 
 Now, there doesn’t seem to be any lines drawn in the sand. 
-<!-- .element: class="fragment" -->
 
 In addition to everything in the IaaS and PaaS model, we have Data and Applications. 
 <!-- .element: class="fragment" -->
@@ -272,7 +266,6 @@ We now have traditional software and hardware personnel that need the same skill
 
 ## SaaS ~ Summary
 Software as a Service is now a routine term in the current IT nomenclature. This evolution of how IT offers and consumes hardware and software turned the industry on its head. 
-<!-- .element: class="fragment" -->
 
 All of these “service” platforms that we have talked about, drive cloud technology and those “cloud clients” are now the consumers where IT has converged in how it provides hardware (now largely virtualized) and software to be consumed by end users. 
 <!-- .element: class="fragment" -->
@@ -283,7 +276,6 @@ The skills necessary to manage these resources now cross over these previously t
 
 ## Build Automation
 Historically, the term has applied to software development. The process of building or compiling software that can then be deployed via script or cron jobs to various environments, including production systems. 
-<!-- .element: class="fragment" -->
 
 In the DevOps world, it encompasses not only the software portion, but the process of automating the deployment of compute resources (physical or virtual, applications and data). 
 <!-- .element: class="fragment" -->
@@ -294,7 +286,6 @@ Whether the process is a unified tool or a set of them, build automation in DevO
 
 ## Infrastructure As Code
 DevOps erases those traditional lines between Operations and Development. It does so because everything is treated as a compute resource and can be managed with code.
-<!-- .element: class="fragment" -->
 
 When your compute resources are largely virtual (cloud consumed), your deployments can be automated throughout the stack with build automation tools.
 <!-- .element: class="fragment" -->
@@ -305,7 +296,6 @@ When your compute resources are largely virtual (cloud consumed), your deploymen
 <img src="/images/build_flow.png" class="absolute" height="55%" width="75%">
 
 Build automation is the process by which you initiate a software or hardware deployment automatically, using consistent methods, all the way through the environment stack. 
-<!-- .element: class="fragment" -->
 
 It can and does include automated testing and rollback capabilities so that each environment remains stable and consistent.
 <!-- .element: class="fragment" -->
@@ -313,7 +303,6 @@ It can and does include automated testing and rollback capabilities so that each
 
 ## Build Automation - Summary
 Build automation is a key component in any DevOps organization. It consumes the services that IT has painstakingly made available in a consistent and repeatable manner. 
-<!-- .element: class="fragment" -->
 
 Now that our compute resources (be they virtual or otherwise) can be consumed and expanded instantly and automatically, the build process can take advantage of those resources more efficiently. 
 <!-- .element: class="fragment" -->
@@ -324,7 +313,6 @@ Consistency and stability is the key in Build Automation. By removing the manual
 
 ## Continuous Integration
 This can be defined as the practice of merging development working copies (i.e. builds that are in flight on a development system or systems) with the shared source main (branch) multiple times per day. 
-<!-- .element: class="fragment" -->
 
 The concept of multiple integrations per day on the main source branch is to prevent integration problems in large development teams where the odds of one change breaking the changes of another developer would be smaller. 
 <!-- .element: class="fragment" -->
@@ -336,7 +324,6 @@ Continuous Integration works hand-in-hand with the previously discussed Build Au
 ## Continuous Delivery
 
 This is an approach in which software teams keep producing valuable software in very short delivery cycles and ensures that those features can be reliably and consistently released at any point in time. 
-<!-- .element: class="fragment" -->
 
 It is often mistakenly used interchangeably with the Continuous Integration approach. Whereas CI has more to do with how the software code is managed throughout the development lifecycle, CD is how valuable and how quickly that software can be released when it is determined that the aggregate features are valuable enough.
 <!-- .element: class="fragment" -->
@@ -383,7 +370,6 @@ Here is an example of a continuos deployment pipeline
 ## CI / CD - Summary
 
 Although related, Continuous Integration and Continuous Delivery are different in what they accomplish. 
-<!-- .element: class="fragment" -->
 
 DevOps uses each one in and in turn feeds the next in the chain. Integration in small doses keeps each environment from developing competing relationships too quickly to manage. Delivery allows the reliable release of those small doses when they are determined to have enough value to move into production. 
 <!-- .element: class="fragment" -->

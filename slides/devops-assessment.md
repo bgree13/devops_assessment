@@ -17,11 +17,11 @@
 
 <!-- .slide: data-background="images/consulting-background.jpg" -->
 # DevOps Assessment
+<img src="/images/ssoftlogo.png" class="absolute" height="30%" width="30%">
 
 
 ## Purpose
 The goal of the exercise is to evaluate both the current and desired state of your organizations progress and finding the best path to achieve future goals. In order to do so, we will expose opportunities for continuous improvement by defining a baseline of where you are on your journey and the desired state of where you are trying to go.
-<!-- .element: class="fragment" -->
 
 Once complete we will compile the results and identify any gaps that may inhibit us from achieving these set goals. From this we can generate custom guidelines that will be used to visualize our paths to success.
 <!-- .element: class="fragment" -->
@@ -38,7 +38,6 @@ So we built this thing called the Journey Map. But once you build a map you need
 
 ## Shared View
 We need a shared view of where we are and a shared destination
-<!-- .element: class="fragment" -->
 
 + Where we are Today?
 <!-- .element: class="fragment" -->
@@ -62,9 +61,10 @@ Here we will focus on an IT service and the groups who provide it.
 + DevOps
 
 
-## DevOps Journey Map
+## DevOps Journey Map 
 <!-- .slide: data-background="#FFFFFF" data-transition="convex"  -->
-<img src="/images/devops-journey.png" height="50%" width="100%">
+<img src="/images/devops-journey.png" height="50%" width="100%" name="hello">
+
 Note:
 Phase 1 Beginning the Journey 
 
@@ -151,6 +151,7 @@ In places that are working that way, they tend to get a lot of changes that go t
 <img src="/images/spider_graph.png" height="50%" width="50%">
 
 Developing an action plan to achieve the results we desire. We want to set prioritization on the most impactful projects / initiatives based on an Initiative Score.  The goal here is to determine what does our ideal process flow look like per service offering? Are we working to solve problems that need to be solved to make a difference for our business in an automated fashion?
+<!-- .element: class="fragment" -->
 
 Note:
 When conducting DevOps assessments, key questions are:
