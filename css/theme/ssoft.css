@@ -97,8 +97,8 @@ body {
 .reveal img,
 .reveal video,
 .reveal iframe {
-  max-width: 50%;
-  max-height: 50%; }
+  max-width: 75%;
+  max-height: 75%; }
 
 .reveal strong,
 .reveal b {
