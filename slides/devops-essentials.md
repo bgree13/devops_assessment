@@ -168,7 +168,7 @@ Note: One of the first steps in the DevOps revolution was when Information Techn
 
 ## Traditional Services
 <!-- .slide: data-background="#FFFFFF" data-transition="convex"  -->
-<img src="/images/traditional_view.png" class="absolute" height="100%" width="25%">
+<img src="/images/traditional_view.png" class="absolute" height="100%" width="20%">
 
 The traditional stack of technology services and the management of them looks something like the diagram to the above. 
 <!-- .element: class="fragment" -->
@@ -182,13 +182,11 @@ Whether the Infrastructure was provided internally or in a colocation model by a
 
 ## Traditional Services ~ IaaS View
 <!-- .slide: data-background="#FFFFFF" data-transition="convex"  -->
-<img src="/images/iaas_view.png" class="absolute" height="100%" width="25%">
+<img src="/images/iaas_view.png" class="absolute" height="100%" width="20%">
 
 Here is the same stack with a slight difference. The perspective of what IT provides is now defined as a set of services related to those items highlighted, from the network to the operating system. 
-<!-- .element: class="fragment" -->
 
 Now, infrastructure related items could be clearly identified to the consumers of those services. This was important because it was one of the first steps in defining IT lines of responsibility differently.
-<!-- .element: class="fragment" -->
 
 
 ## IaaS Summary
@@ -208,12 +206,12 @@ In the Platform as a Service model, IT (or a vendor/cloud provider) delivers a c
 
 ## Traditional Services ~ PaaS View
 <!-- .slide: data-background="#FFFFFF" data-transition="convex"  -->
-<img src="/images/paas_view.png" class="absolute" height="100%" width="25%">
+<img src="/images/paas_view.png" class="absolute" height="100%" width="20%">
 
-You will notice that we have moved the service offering a few notches up the stack in the diagram to your left. 
++ You will notice that we have moved the service offering a few notches up the stack in the diagram to your left. 
 <!-- .element: class="fragment" -->
 
-In addition to everything in the IaaS model, we have added Runtime and Middleware. 
++ In addition to everything in the IaaS model, we have added Runtime and Middleware. 
 <!-- .element: class="fragment" -->
 
 Sample platforms are database, web servers, runtimes, etc. These are independent of the Infrastructure but pushes the service offering up and takes more of the burden off the business or the developers to manage.
@@ -249,7 +247,7 @@ This eliminates the need to install or run applications locally and can be run e
 
 ## Traditional Services ~ SaaS View
 <!-- .slide: data-background="#FFFFFF" data-transition="convex"  -->
-<img src="/images/saas_view.png" class="absolute" height="100%" width="25%">
+<img src="/images/saas_view.png" class="absolute" height="100%" width="20%">
 
 Now, there doesn’t seem to be any lines drawn in the sand. 
 <!-- .element: class="fragment" -->
