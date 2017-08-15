@@ -21,7 +21,7 @@
 
 
 ## Introduction
-+ DevOps is more philosophy than process. A recognition that the rlationship between developers and operations staff was broken.
++ DevOps is more philosophy than process. A recognition that the relationship between developers and operations staff was broken.
 + Developers are expected to ship more code, more frequently - Change is their friend. 
 <!-- .element: class="fragment" -->
 + Ops are expected to keep everything running smoothly to protect uptime - Change is their enemy. 
