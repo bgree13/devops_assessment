@@ -87,9 +87,14 @@ To plan, schedule and control the movement of releases to test and prod environm
 ## What Goes Wrong? 
 Its important to note that the objective lists both test and prod environments. At the end of the day you want this process to be as smooth as possible. It rarely is, and the hidden killer in most Enterprises is the fact that a lot of this wasted time takes place when migrating between nonProduction environments. 
 
-+ Have you ever gone through hours of troubleshooting to work out why the application that worked fine in UAT doesn’t work in Staging? 
++ Have you ever gone through hours of troubleshooting to work out why the application that worked fine in UAT does not work in Staging? 
+<!-- .element: class="fragment" -->
+
 + Or maybe you are the PM and have sat on the sidelines in frustration as their project gets held up while the team scrambles to get a QA or performance environment ready? An environment that is supposed to theoretically be always available. 
+<!-- .element: class="fragment" -->
+
 + Another major issue comes from the management of conflicting projects. Schedules are altered and additional time factored in to mitigate poorly defined and implemented integration processes.
+<!-- .element: class="fragment" -->
 
 
 ## How Can DevOps Help?
@@ -113,7 +118,6 @@ Automation:
 
 Functional Testing: 
 + Cucumber
-+ QTP
 + Rational
 + Selenium
 
@@ -131,15 +135,16 @@ The primary objective of Incident Management is to return the IT service to user
 
 
 ## What Goes Wrong?
-Any form of breakdown in communication between groups can translate into serious issues for the Incident Management process. Silos are often reinforced here as finger pointing and the Blame Game becomes common when what is required is a collaborative and unified effort to get systems back online and working correctly as quickly as possible.
+Any form of breakdown in communication between groups can translate into serious issues for the Incident Management process. 
+
+Silos are often reinforced here as finger pointing and the Blame Game becomes common when what is required is a collaborative and unified effort to get systems back online and working correctly as quickly as possible.
+<!-- .element: class="fragment" -->
 
 
 ## How Can DevOps Help? 
-Like the Change Management process, the Incident Management process will naturally receive flow on benefits in the form of reduced incident numbers when initiatives in other areas such as automated testing, deployment and continuous integration are put into action. Perhaps the best example of how a DevOps mindset can assist the Incident Management process though is the practice of making sure that development staff also go on call. The benefits from this are twofold. Firstly, seeing development staff playing their part and standing on the front line improves the camaraderie with the operations team. Secondly, an understanding of the impact their code has on supportability makes developers better coders as well.
+Like the Change Management process, the Incident Management process will naturally receive flow on benefits in the form of reduced incident numbers when initiatives in other areas such as automated testing, deployment and continuous integration are put into action. 
 
-
-## Tools
-Get the developer a pager :)
+Note: Perhaps the best example of how a DevOps mindset can assist the Incident Management process though is the practice of making sure that development staff also go on call. The benefits from this are twofold. Firstly, seeing development staff playing their part and standing on the front line improves the camaraderie with the operations team. Secondly, an understanding of the impact their code has on supportability makes developers better coders as well.
 
 
 # Knowledge Management
@@ -151,16 +156,22 @@ The primary purpose of Knowledge Management is to improve efficiency by reducing
 
 
 ## What Goes Wrong?
-This is an area that has long been a problem for Enterprise IT. Knowledge has typically been consigned to Word documents that no one reads, and which are out of date as soon as they are created. In most instances Knowledge Management is simply a case of making every effort to ensure that the best and brightest stay with the company, as the most valuable source of knowledge is locked in these employees’ heads.
+This is an area that has long been a problem for Enterprise IT. Knowledge has typically been consigned to Word documents that no one reads, and which are out of date as soon as they are created. In most instances Knowledge Management is simply a case of making every effort to ensure that the best and brightest stay with the company, as the most valuable source of knowledge is locked in these employees heads.
 
 
 ## How Can DevOps Help?
-Automation is the key here. Whether you are dealing with a deployment, a test, or an approval, each time you automate something you are, effectively, capturing knowledge. ITIL® may disagree with this definition but it is the only practical one. Executable Documentation creates a virtuous cycle; the documentation tests the system, and the system tests the documentation.
+Automation is the key here. Whether you are dealing with a deployment, a test, or an approval, each time you automate something you are, effectively, capturing knowledge. 
+
+ITIL may actually disagree with this approach but it is the most practical one. Executable Documentation creates a virtuous cycle; the documentation tests the system, and the system tests the documentation.
 
 
 ## Tools
-The same tools we listed on the previous page for automation (deployment and test) are relevant here. Whilst biased I will say that the majority of them are lacking in one key area though: Collaboration. Capturing knowledge in a tool like Puppet or Chef is a good thing. If you can’t use these tools though, you cannot view or contribute to it. Practical Knowledge Management is the intersection of both automation and collaboration. Tools like UpGuard that abstract away technical detail and actively promote collaboration are the future of this space.
+The same tools we listed on the previous page for automation (deployment and test) are relevant here. Capturing knowledge in a tool like Puppet or Chef is a good thing. 
+
+Note: While biased I will say that the majority of them are lacking in one key area though: Collaboration. Capturing knowledge in a tool like Puppet or Chef is a good thing. If you can’t use these tools though, you cannot view or contribute to it. Practical Knowledge Management is the intersection of both automation and collaboration. Tools like Jira that abstract away technical detail and actively promote collaboration are the future of this space.
 
 
 ## Conclusion
-IT fads come and go, and you should always be wary of the latest buzzword. Whilst time will tell whether the term DevOps will endure, its lessons on collaboration and automation certainly will. Adoption of DevOps practices within the Enterprise does not mean throwing out a perfectly good framework like ITIL®. Think of DevOps as more of an evolution. ITIL® brought order where there was once chaos. In some cases its formality and rigidity has gone too far though. Application of Agile and DevOps principles over the foundation of ITIL® can overcome this. By using your ITIL® processes as starting points for analysis of potential benefits, an Enterprise DevOps implementation is given greater focus. Identify pain points that could benefit from greater collaboration and automation. Prioritize them based on potential benefit and estimated effort. Get started today though, otherwise your business will most certainly be left behind
+While time will tell whether the term DevOps will endure, its lessons on collaboration and automation certainly will. Adoption of DevOps practices within the Enterprise does not mean throwing out a perfectly good framework like ITIL. Think of DevOps as more of an evolution. ITIL® brought order where there was once chaos. 
+
+Note: In some cases its formality and rigidity has gone too far though. Application of Agile and DevOps principles over the foundation of ITIL® can overcome this. By using your ITIL® processes as starting points for analysis of potential benefits, an Enterprise DevOps implementation is given greater focus. Identify pain points that could benefit from greater collaboration and automation. Prioritize them based on potential benefit and estimated effort. Get started today though, otherwise your business will most certainly be left behind
