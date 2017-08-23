@@ -173,4 +173,33 @@ Successful Organizations look at risks and take failures as opportunities to eva
 
 ## Scoring
 
-Quantify the amount of work required to achieve said goals.
+
+## Results
+<canvas data-chart="radar" data-chart-src="data/phase-report.csv" width="500" height="300">
+<!--
+{
+"options": { "scale": { 
+               "gridLines": { "color": "#FFF", "zeroLineColor": "#FFF" }, 
+               "ticks": { "display": false}, 
+               "pointLabels": { "fontSize": "20", "fontColor": "#FFF" }
+             }
+}            
+}
+-->
+</canvas>
+
+
+### Results
+<!-- Show a completed DOJO sample spider graph -->
+<canvas data-chart="horizontalBar" data-chart-src="data/question-report.csv" width="600" height="300">
+<!--
+{
+"options": { 
+  "responsive": true, 
+  "scales": { 
+    "xAxes": [{ "stacked": false }], "yAxes": [{ "stacked": true }]
+  }
+}
+}
+-->
+</canvas>

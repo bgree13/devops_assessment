@@ -24,7 +24,7 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section class="foo"
+				<section
                                    data-menu-title="DevOps-Essentials"
                                    data-markdown="slides/devops-essentials.md"
                                    data-separator="^\n\n\n"
@@ -51,6 +51,14 @@
 				<section 
                                    data-menu-title="CI/CD"
                                    data-markdown="slides/ci_cd.md"
+                                   data-separator="^\n\n\n"
+                                   data-separator-vertical="^\n\n"
+                                   data-separator-notes="^Note:"
+                                   data-charset="iso-8859-15">
+                                </section>
+				<section 
+                                   data-menu-title="Graph-Slide"
+                                   data-markdown="slides/graph.md"
                                    data-separator="^\n\n\n"
                                    data-separator-vertical="^\n\n"
                                    data-separator-notes="^Note:"
@@ -157,11 +165,50 @@
 					// effect when both the 'keyboard' and 'sticky' options are enabled.
 					autoOpen: true
 				},
+				chart: {
+					  defaults: {
+					    global: {
+					      defaultFontColor: "#FFF",
+					      fontColor: "#FFF",
+					      fontSize: 20,
+					      fontFamily: "'Arial'",
+					      title: { fontColor: "#FFF" },
+					      legend: {
+						labels: {
+						  padding: 20,
+						  fontColor: "#FFF"
+						}
+					      },
+					      label: {
+						fontColor: "#FFF"
+					      }
+					    }
+					  },
+					  line: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ], "borderDash": [ [5,10], [0,0] ]},
+					  bar: {
+					    backgroundColor: ["rgba(241,139,33,0.2)", "rgba(107,178,226,0.2)"],
+					    borderColor: ["rgba(241,139,33,1)", "rgba(107,178,226,1)"]
+					  },
+					  horizontalBar: {
+					    backgroundColor: ["rgba(241,139,33,0.2)", "rgba(107,178,226,0.2)"],
+					    borderColor: ["rgba(241,139,33,1)", "rgba(107,178,226,1)"],
+					    borderWidth: [2,2]
+					  },
+					  pie: { backgroundColor: [ ["rgba(0,0,0,.8)" , "rgba(220,20,20,.8)", "rgba(20,220,20,.8)", "rgba(220,220,20,.8)", "rgba(20,20,220,.8)"] ]},
+					  radar: {
+					    backgroundColor: ["rgba(241,139,33,0.2)", "rgba(107,178,226,0.2)"],
+					    borderColor: ["rgba(241,139,33,1)", "rgba(107,178,226,1)"],
+					    pointBackgroundColor: ["rgba(241,139,33,1)", "rgba(107,178,226,1)"],
+					    pointBorderColor: ["rgba(241,139,33,1)", "rgba(107,178,226,1)"]
+					  }
+        			},
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
 					{ src: 'plugin/menu/menu.js' },
+					{ src: 'plugin/chart/Chart.min.js' },
+					{ src: 'plugin/chart/csv2chart.js' },
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				]
 			});
